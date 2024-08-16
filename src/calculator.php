@@ -10,10 +10,10 @@ switch ($operation) {
         echo "Resultado: " . ($num1 - $num2);
         break;
     case "multiplicacion":
-        echo "Resultado: " . ($num1 * $num2);
+        echo "Resultado multiplicacion: " . ($num1 * $num2);
         break;
     case "division":
-        echo "Resultado: " . ($num1 / $num2);
+        echo "Resultado division: " . ($num1 / $num2);
         break;
 }
 ?>
