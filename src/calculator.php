@@ -4,10 +4,10 @@ $num2 = $_POST["num2"];
 $operation = $_POST["operation"];
 switch ($operation) {
     case "suma":
-        echo "Resultado: " . ($num1 + $num2);
+        echo "Resultado suma: " . ($num1 + $num2);
         break;
     case "resta":
-        echo "Resultado: " . ($num1 - $num2);
+        echo "Resultado resta: " . ($num1 - $num2);
         break;
     case "multiplicacion":
         echo "Resultado: " . ($num1 * $num2);
